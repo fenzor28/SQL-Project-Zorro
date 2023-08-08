@@ -21,7 +21,7 @@ By addressing these issues, we can ensure that the data is complete, correct, an
 Queries:
 Below, provide the SQL queries you used to clean your data.
 
-----ALL_SESSIONS TABLE----
+# ----ALL_SESSIONS TABLE----
 
 --This query will update only the rows where the value in channelgrouping is exactly (other), removing the parentheses from that specific value. 
 
