@@ -54,7 +54,10 @@ SET city = 'Unknown'
 WHERE city = '(not set)' OR city = 'not available in demo dataset'
 ```
 
-
+--Dividing by 1,000,000 would convert the values to a more standard unit like dollars. This would make the data more interpretable and consistent. Similar query was executed for the 
+```
+UPDATE all_sessions
+SET productPrice = productPrice / 1000000
 
 
 
