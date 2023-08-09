@@ -35,9 +35,9 @@ WHERE channelgrouping = '(Other)';
 --Since the data was gathered before 2018, Retaining the historical name Macedonia (FYROM) might be beneficial but it's not necessary for my analysis
 
 ```
-UPDATE all_sessions
-SET channelgrouping = SUBSTRING(channelgrouping, 2, LENGTH(channelgrouping) - 2)
-WHERE channelgrouping = '(Other)';
+UPDATE all_sessions 
+SET country = 'Macedonia'
+WHERE country = 'Macedonia (FYROM)'
 ```
 
 --The name change from "Burma" to "Myanmar" is tied to historical, ethnic, and political factors. Myanmar is the official name recognized by the United Nations and many countries so I decided to use it instead of Burma
