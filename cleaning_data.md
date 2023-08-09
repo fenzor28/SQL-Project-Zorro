@@ -118,9 +118,9 @@ WITH DuplicateRows AS (
 )
 DELETE FROM analytics
 WHERE ctid IN ( SELECT ctid
-    			FROM DuplicateRows
-    			WHERE rn > 1
-			  )
+		FROM DuplicateRows
+		WHERE rn > 1
+	      )
 ```
 
 This query will update only the rows where the value is '(other)' in the column channelgrouping, removing the parentheses from that specific value 
