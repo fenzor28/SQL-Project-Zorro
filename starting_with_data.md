@@ -1,6 +1,15 @@
-Question 1: 
+Question 1: Are there products with high stock levels but low sales, indicating overstocking? What strategies can be applied to clear this inventory?
 
-SQL Queries:
+SQL Queries: 
+```
+SELECT 
+	name as product_name,
+	stocklevel,
+	orderedquantity
+FROM products
+WHERE stocklevel > 100 AND orderedquantity < 60
+ORDER BY stocklevel DESC
+```
 
 Answer: 
 
