@@ -8,11 +8,11 @@ Mishandling missing values: For columns with a significant number of missing val
 # QA Process:
 Describe your QA process and include the SQL queries used to execute it.
 
-/*** Uniqueness Check ***/
+Uniqueness Check 
 ```
 SELECT sku, COUNT(*)
 FROM products
 GROUP BY sku
 HAVING COUNT(*) > 1
-
+```
 
