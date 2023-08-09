@@ -41,18 +41,18 @@ WHERE country = 'Macedonia (FYROM)'
 ```
 
 --The name change from "Burma" to "Myanmar" is tied to historical, ethnic, and political factors. Myanmar is the official name recognized by the United Nations and many countries so I decided to use it instead of Burma
-
+```
 UPDATE all_sessions 
 SET country = 'Myanmar'
 WHERE country = 'Myanmar (Burma)'
-
+```
 --Placeholder values like "(not set)" or "not available in demo dataset" are not standardized and can be confusing.
 --Replacing them with a consistent value like "Unknown" makes it clear that the information is not available.
 ```
 UPDATE all_sessions
 SET city = 'Unknown'
 WHERE city = '(not set)' OR city = 'not available in demo dataset'
-
+```
 
 
 
