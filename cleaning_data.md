@@ -23,7 +23,7 @@ Below, provide the SQL queries you used to clean your data.
 
 # ALL_SESSIONS TABLE
 
---This query will update only the rows where the value in channelgrouping is exactly (other), removing the parentheses from that specific value. 
+/ ** This query will update only the rows where the value in channelgrouping is exactly (other), removing the parentheses from that specific value **/
 
 ```
 UPDATE all_sessions
