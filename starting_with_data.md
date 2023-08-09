@@ -1,4 +1,5 @@
-Question 1: Are there products with high stock levels but low sales, indicating overstocking? What strategies can be applied to clear this inventory?
+Question 1: 
+Are there products with high stock levels but low sales, indicating overstocking? What strategies can be applied to clear this inventory?
 
 SQL Queries: 
 ```
@@ -21,6 +22,18 @@ Answer: Men's Watershed Full Zip Hoodie Grey
 Question 2: 
 
 SQL Queries:
+What are the top 3 infant products with low stock levels that might risk going out of stock soon?​
+```
+SELECT 
+	name as product_name,
+	stocklevel,
+	orderedquantity
+FROM products
+WHERE stocklevel < 10 AND orderedquantity > 2
+ AND name LIKE 'Infant%'
+ORDER BY stocklevel 
+LIMIT 3
+```
 
 Answer:
 
