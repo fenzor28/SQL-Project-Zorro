@@ -79,7 +79,7 @@ Here's a list of columns:
 -productrevenue
 -transactionrevenue
 
-The columns' productrefundamount and itemrevenue were not included because they contain no values
+The columns 'productrefundamount' and 'itemrevenue' were not included because they contain no values
 ```
 UPDATE all_sessions
 SET productprice = productprice / 1000000,
@@ -92,7 +92,7 @@ SET productprice = productprice / 1000000,
 
 userid column contains no values
 
-The column socialengagementtype produces redundant data
+The column 'socialengagementtype' produces redundant data
 
 By performing the same query below for each column I found that every column have duplicates, therefore none of the columns can be the primary key
 ```
@@ -146,6 +146,33 @@ ALTER COLUMN visitstarttime TYPE TIMESTAMP USING to_timestamp(visitstarttime)
 ALTER TABLE analytics
 ALTER COLUMN visitstarttime TYPE TIME USING CAST(visitstarttime AS TIME)
 ```
+
+
+
+# PRODUCTS TABLE
+
+Checking duplicates. The 'sku' (Stock Keeping Unit) column appears to be a unique identifier for each product
+```
+SELECT sku, COUNT(*)
+FROM products
+GROUP BY sku
+HAVING COUNT(*) > 1
+```
+
+For consisten formatting, this query will remove any extra spaces at the beginning and end of the 'name' values
+```
+UPDATE products
+SET name = TRIM(name)
+```
+
+
+
+
+
+
+
+
+
 
 
 
