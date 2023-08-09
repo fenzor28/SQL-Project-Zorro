@@ -151,7 +151,7 @@ ALTER COLUMN visitstarttime TYPE TIME USING CAST(visitstarttime AS TIME)
 
 # PRODUCTS TABLE
 
-Checking duplicates. The 'sku' (Stock Keeping Unit) column appears to be a unique identifier for each product
+Checking for duplicates. The 'sku' (Stock Keeping Unit) column appears to be a unique identifier for each product
 ```
 SELECT sku, COUNT(*)
 FROM products
@@ -159,11 +159,37 @@ GROUP BY sku
 HAVING COUNT(*) > 1
 ```
 
-For consisten formatting, this query will remove any extra spaces at the beginning and end of the 'name' values
+For consistent formatting, this query will remove any extra spaces at the beginning and end of the 'name' values
 ```
 UPDATE products
 SET name = TRIM(name)
 ```
+
+
+
+# SALES_BY_SKU TABLE
+
+Checking for duplicates. The 'productsku' column appears to be a unique identifier for each product
+```
+SELECT productsku, COUNT(*) 
+FROM sales_by_sku
+GROUP BY productsku
+HAVING COUNT(*) > 1
+```
+
+# SALES_REPORT TABLE
+
+Checking for duplicates. The 'productsku' column appears to be a unique identifier for each product
+```
+SELECT productsku, COUNT(*) 
+FROM sales_report
+GROUP BY productsku
+HAVING COUNT(*) > 1
+```
+For consistent formatting, this query will remove any extra spaces at the beginning and end of the 'name' values
+```
+UPDATE sales_report
+SET name = TRIM(name)
 
 
 
