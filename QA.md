@@ -5,9 +5,13 @@ Data loss: Accidental deletion or modification of data during cleaning or transf
 Mishandling missing values: For columns with a significant number of missing values, deciding to either fill them with a default value or remove rows/columns can impact our results if done wrong.
 
 
-QA Process:
+# QA Process:
 Describe your QA process and include the SQL queries used to execute it.
 
 /*** Uniqueness Check ***/
+SELECT sku, COUNT(*)
+FROM products
+GROUP BY sku
+HAVING COUNT(*) > 1
 
 
