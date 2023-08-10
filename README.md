@@ -14,8 +14,8 @@ Provide insights into business operations and trends through the analysis of dat
 
 ## Challenges 
 
-When changes were made in the names of the columns, I kept getting this error:
-ERROR:  cached plan must not change result type 
+###When changes were made in the names of the columns, I kept getting this error:
+    ERROR:  cached plan must not change result type 
 
 Opening a new query tool solves the issue
 
