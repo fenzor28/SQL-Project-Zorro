@@ -7,6 +7,7 @@ Provide insights into business operations and trends through the analysis of dat
 
 ## Process
 ### Understanding the Data
+    > I began by analyzing the data prior to cleaning. Before I start cleaning, it's important that I understand the quality of the data. 
     
 ### (your step 2)
 
