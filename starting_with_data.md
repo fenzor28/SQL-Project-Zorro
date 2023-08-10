@@ -1,6 +1,4 @@
 Question 1: 
-
-
 Are there products with high stock levels but low sales, indicating overstocking? What strategies can be applied to clear this inventory?
 
 SQL Queries: 
@@ -22,7 +20,6 @@ Answer: 1) Men's Watershed Full Zip Hoodie Grey
 
 
 Question 2: 
-
 What are the top 3 infant products with low stock levels that might risk going out of stock soon?​
 
 SQL Queries:
@@ -45,7 +42,8 @@ Answer: 1) Infant Short Sleeve Tee Red
 
 
 
-Question 3: Which channel is resposible for attracting the highest number of user sessions on the platform?
+Question 3:
+Which channel is resposible for attracting the highest number of user sessions on the platform?
 
 SQL Queries: 
 ```
