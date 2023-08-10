@@ -164,8 +164,7 @@ GROUP BY a.country, a.city, b.country_total_revenue
 ORDER BY city_total_revenue DESC
 ```
 
-Answer: 
-It's evident that the United States, particularly cities like San Francisco, Sunnyvale and Atlanta, have contributed significantly to the revenue
+Answer: It's evident that the United States, particularly cities like San Francisco, Sunnyvale and Atlanta, have contributed significantly to the revenue
 
 
 
