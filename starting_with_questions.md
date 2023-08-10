@@ -124,11 +124,13 @@ ORDER BY country, city
 Answer: Results for the country Japan
 
 
-| country | city | avg_products_ordered |
-| ----------- | ----------- |------------|
-| Argentina | Santa Fe | 1933 |
-| Argentina | Buenos Aires | 435 |
-| Argentina | Rosario | 433 |
+| country | city | product_name | total_ordered |
+| ----------- | ----------- |------------| ------ |
+| Japan | Minato |  |
+| Japan | Buenos Aires | 435 |
+| Japan | Rosario | 433 |
+| Japan |
+| Japan |
 
 
 
