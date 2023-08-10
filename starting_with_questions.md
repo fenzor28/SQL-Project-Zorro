@@ -133,7 +133,7 @@ Answer: Results for the country Japan
 | Japan | Yokohama | Slim Utility Travel Bag | 13 |
 
 
-### Patterns worth noting:
+Patterns worth noting:
 
 There are 79 unique products in the list of top-selling products across various cities/countries. This suggests a diverse range of products gaining popularity.
 ```
