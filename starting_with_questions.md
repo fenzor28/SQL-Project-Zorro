@@ -68,7 +68,9 @@ WHERE rank <= 3
 
 
 Answer: 1) The category " Home/Shop by Brand/YouTube/ " appears to be consistenly popular in various cities like Bribane, Melbourne and 		Sydney 	in Australia
-	2) The category " Home/Shop by Brand/YouTube/ " appears globally popular amongst the maajor countries
+	2) The category " Home/Shop by Brand/YouTube/ " appears globally popular among the major countries like Australia,
+           Canada, United States, Germany, India and United Kingdom.
+	3) It's evident that Youtube is a popular product category across the top countries and cities.
 
 
 
@@ -90,11 +92,32 @@ Answer:
 **Question 5: Can we summarize the impact of revenue generated from each city/country?**
 
 SQL Queries:
+```
+WITH CountryRevenue AS (
+	SELECT 
+		country,
+	  	SUM(totaltransactionrevenue) as country_total_revenue
+	FROM all_sessions
+	WHERE totaltransactionrevenue IS NOT NULL
+	GROUP BY country
+	ORDER BY country_total_revenue DESC
+)
+
+SELECT 
+	a.country,
+	a.city,
+	b.country_total_revenue,
+	SUM(a.totaltransactionrevenue) as city_total_revenue
+FROM all_sessions a
+JOIN CountryRevenue b ON a.country = b.country
+WHERE a.totaltransactionrevenue IS NOT NULL 
+	AND a.country != 'Unknown' AND a.city != 'Unknown'
+GROUP BY a.country, a.city, b.country_total_revenue
+ORDER BY city_total_revenue DESC
+```
 
 
-
-Answer:
-
+Answer: It's evident that the United States, particularly cities like San Francisco, Sunnyvale and Atlanta, have contributed significantly to the revenue
 
 
 
