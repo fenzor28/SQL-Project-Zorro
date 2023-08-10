@@ -35,6 +35,10 @@ SQL Queries:
 
 Answer:
 
+| Syntax | Description |
+| ----------- | ----------- |
+| Header | Title |
+| Paragraph | Text |
 
 
 
