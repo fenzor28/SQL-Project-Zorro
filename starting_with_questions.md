@@ -33,12 +33,13 @@ SQL Queries:
 
 
 
-Answer:
+Answer: Results for the country Argentina
 
 | country | city | avg_products_ordered |
 | ----------- | ----------- |------------|
-| Header | Title |
-| Paragraph | Text |
+| Argentina | Santa Fe | 1933 |
+| Argentina | Buenos Aires | 435 |
+| Argentina | Rosario | 433 |
 
 
 
