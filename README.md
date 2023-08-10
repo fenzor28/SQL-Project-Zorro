@@ -12,7 +12,7 @@ Provide insights into business operations and trends through the analysis of dat
 
     
 ### Import the Data into PostgreSQL
-     1) Create a database named "Ecommerce" and table: Created a table in PostgreSQL for each CSV file with matching structure and appropriate data types
+     1) Create a database named "Ecommerce" and table: Create a table in PostgreSQL for each CSV file with matching structure and appropriate data types
      2) Import the CSV file into the table: Use pgAdmin4 to import the CSV file into the created table
 
 ### Data Cleaning and Transformation
