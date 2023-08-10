@@ -29,11 +29,11 @@ Provide insights into business operations and trends through the analysis of dat
 
 ## Results
      : With these dataset, I was able to discover
-     -all_sessions
+ ### all_sessions
      1) Information about various user sessions, possibly related to an ecommerce platform, including user behavior, transactions, and interactions with different products.
      2) Information about the user (such as country and city) and how they reached the platform (through direct channels, referrals, or search) is provided.
 
-    -analytics
+### analytics
      1) Information about website visits, including details about visitors, engagement, units sold, pageviews, time on site, bounces, revenue, and unit price.
 
      -products
