@@ -55,11 +55,11 @@ Provide insights into business operations and trends through the analysis of dat
 8)  When changes were made in the names of the columns, I kept getting this error:
    ERROR:  cached plan must not change result type
    Solved it by simply opening a new query tool
-9) I assumed the time columns were minutes but it could hours
-10) 
+9) I assumed the time columns were minutes but it could be hours
 
 
-Opening a new query tool solves the issue
+
+
 
 ## Future Goals
 (what would you do if you had more time?)
