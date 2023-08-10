@@ -126,11 +126,11 @@ Answer: Results for the country Japan
 
 | country | city | product_name | total_ordered |
 | ----------- | ----------- |------------| ------ |
-| Japan | Minato |  |
-| Japan | Buenos Aires | 435 |
-| Japan | Rosario | 433 |
-| Japan |
-| Japan |
+| Japan | Minato |  | 146 |
+| Japan | Mountain View |  | 7 | 
+| Japan | Osaka | | 42 |
+| Japan | Shinjuku |    | 334 |
+| Japan | Yokohama | | 13 |
 
 
 
