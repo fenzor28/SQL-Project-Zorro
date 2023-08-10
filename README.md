@@ -26,14 +26,35 @@ Provide insights into business operations and trends through the analysis of dat
      2) Documentation: Maintain clear and detailed documentation of the data cleaning and analysis steps. This ensures that the process can be easily reviewed, understood, and replicated.
 
 
+## Results
+     : With these dataset, I was able to discover
+     -all_sessions
+     1) Information about various user sessions, possibly related to an ecommerce platform, including user behavior, transactions, and interactions with different products.
+     2) Information about the user (such as country and city) and how they reached the platform (through direct channels, referrals, or search) is provided.
 
+    -analytics
+     1) Information about website visits, including details about visitors, engagement, units sold, pageviews, time on site, bounces, revenue, and unit price.
+
+     -products
+     1) Information about various products
+
+     -
 
 (fill in what you discovered this data could tell you and how you used the data to answer those questions)
 
 ## Challenges 
 
-###When changes were made in the names of the columns, I kept getting this error:
-    ERROR:  cached plan must not change result type 
+
+1) Data cleaning and transformation consumed a lot of my time.
+2) Several columns had missing values. Deciding how to handle these missing values required careful consideration and understanding of the domain context.
+3) It was challenging to find a suitable primary and foreign key for some of the tables.
+4) Some columns, such as "currrencycode," contained constant values across all rows. These constant columns may not contribute meaningful information, and deciding whether to keep or remove them required analysis.
+5) Some columns may require conversion to more appropriate data types or formats. It was challenging without clear documentation or understanding of the data.
+6) Making informed decisions about interpreting columns and cleaning was challenging to make accurately.
+7) When changes were made in the names of the columns, I kept getting this error:
+   ERROR:  cached plan must not change result type
+   Solved it by simply opening a new query tool
+
 
 Opening a new query tool solves the issue
 
