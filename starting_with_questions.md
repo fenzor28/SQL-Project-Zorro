@@ -100,9 +100,9 @@ WITH TopSales AS (
  SELECT
 	a.country,
 	a.city,
-	s.name as product_name,
+	s.name AS product_name,
 	s.total_ordered,
-	ROW_NUMBER() OVER (PARTITION BY a.country, a.city ORDER BY s.total_ordered DESC) as rank
+	ROW_NUMBER() OVER (PARTITION BY a.country, a.city ORDER BY s.total_ordered DESC) AS rank
 FROM all_sessions a
 JOIN sales_report s
 	ON a.productsku = s.productsku
@@ -132,6 +132,58 @@ Answer: Results for the country Japan
 | Japan | Shinjuku | 17oz Stainless Steel Sport Bottle | 334 |
 | Japan | Yokohama | Slim Utility Travel Bag | 13 |
 
+
+### Patterns worth noting:
+
+There are 79 unique products in the list of top-selling products across various cities/countries. This suggests a diverse range of products gaining popularity.
+```
+WITH TopSales AS (
+ SELECT
+	a.country,
+	a.city,
+	s.name as product_name,
+	s.total_ordered,
+	ROW_NUMBER() OVER (PARTITION BY a.country, a.city ORDER BY s.total_ordered DESC) AS rank
+FROM all_sessions a
+JOIN sales_report s
+	ON a.productsku = s.productsku
+WHERE country != 'Unknown' AND city != 'Unknown' 
+	AND s.total_ordered > 0
+) 
+
+SELECT COUNT(DISTINCT product_name) AS "Number of Unique Top-Selling Product"
+FROM TopSales
+WHERE rank = 1
+```
+While there's diversity, some products such as "Ballpoint LED Light Pen", "Hard Cover Journal", and "Blackout Cap" appear to be universally popular, leading sales in multiple areas.
+
+```
+WITH TopSales AS (
+ SELECT
+	a.country,
+	a.city,
+	s.name AS product_name,
+	s.total_ordered,
+	ROW_NUMBER() OVER (PARTITION BY a.country, a.city ORDER BY s.total_ordered DESC) AS rank
+FROM all_sessions a
+JOIN sales_report s
+	ON a.productsku = s.productsku
+WHERE country != 'Unknown' AND city != 'Unknown' 
+	AND s.total_ordered > 0
+) 
+
+SELECT 
+	product_name,
+	COUNT(*) AS "Number of Cities/Countries"
+FROM TopSales
+WHERE rank = 1
+GROUP BY product_name
+	ORDER BY "Number of Cities/Countries" DESC
+LIMIT 3
+
+
+```
+P
 
 
 
