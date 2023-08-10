@@ -6,7 +6,7 @@ Create and put into action a quality assurance (QA) procedure to compare and ver
 Provide insights into business operations and trends through the analysis of data.
 
 ## Process
-###  -[x] Understanding the Data
+ -[x] Understanding the Data
      : I began by analyzing the data prior to cleaning. Before diving into cleaning, it's important that I understand the quality of the data, what it represents, 
         and what the research or business objectives are
     By analyzing the data, I was able to identify the issues that need to be addressed during the cleaning process
