@@ -18,8 +18,8 @@ By addressing these issues, we can ensure that the data is complete, correct, an
 
 
 
-Queries:
-Below, provide the SQL queries you used to clean your data.
+# Queries:
+
 
 ## ALL_SESSIONS TABLE
 
@@ -99,7 +99,7 @@ SET productprice = productprice / 1000000,
     transactionRevenue = transactionRevenue / 1000000
 ```
 
-# ANALYTICS TABLE
+## ANALYTICS TABLE
 
 userid column contains no values
 
@@ -165,7 +165,7 @@ DROP COLUMN old_column;
 ```
 
 
-# PRODUCTS TABLE
+## PRODUCTS TABLE
 
 Checking for duplicates. The 'sku' (Stock Keeping Unit) column appears to be a unique identifier for each product
 ```
@@ -188,7 +188,7 @@ RENAME COLUMN sku to productsku
 ```
 
 
-# SALES_BY_SKU TABLE
+## SALES_BY_SKU TABLE
 
 Checking for duplicates. The 'productsku' column appears to be a unique identifier for each product
 ```
@@ -198,7 +198,7 @@ GROUP BY productsku
 HAVING COUNT(*) > 1
 ```
 
-# SALES_REPORT TABLE
+## SALES_REPORT TABLE
 
 Checking for duplicates. The 'productsku' column appears to be a unique identifier for each product
 ```
