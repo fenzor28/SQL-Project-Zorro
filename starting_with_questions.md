@@ -85,8 +85,6 @@ Answer:
 1) The category " Home/Shop by Brand/YouTube/ " appears to be consistently popular in various cities like Bribane, Melbourne and 	        Sydney in Australia
 2) The category " Home/Shop by Brand/YouTube/ " appears to be popular globally among the major countries like Australia,
    Canada, United States, Germany, India and United Kingdom.
-3) It's evident that Youtube is a popular product category across the major countries and cities.
-
 
 
 
