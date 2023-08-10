@@ -126,11 +126,11 @@ Answer: Results for the country Japan
 
 | country | city | product_name | total_ordered |
 | ----------- | ----------- |------------| ------ |
-| Japan | Minato |  | 146 |
-| Japan | Mountain View |  | 7 | 
-| Japan | Osaka | | 42 |
-| Japan | Shinjuku |    | 334 |
-| Japan | Yokohama | | 13 |
+| Japan | Minato | Sunglasses | 146 |
+| Japan | Mountain View | 5-Panel Snapback Cap | 7 | 
+| Japan | Osaka | Protect Smoke + CO White Wired Alarm-USA | 42 |
+| Japan | Shinjuku | 17oz Stainless Steel Sport Bottle | 334 |
+| Japan | Yokohama | Slim Utility Travel Bag | 13 |
 
 
 
