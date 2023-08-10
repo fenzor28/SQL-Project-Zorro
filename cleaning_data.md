@@ -158,6 +158,11 @@ ALTER TABLE analytics
 ALTER COLUMN visitstarttime TYPE TIME USING CAST(visitstarttime AS TIME)
 ```
 
+Deleting a column with a redundant value to reduce data redundancy and improve data integrity
+```
+ALTER TABLE my_table
+DROP COLUMN old_column;
+```
 
 
 # PRODUCTS TABLE
