@@ -95,11 +95,12 @@ Answer:
 
 SQL Queries:
 ```
+
 WITH TopSales AS (
  SELECT
 	a.country,
 	a.city,
-	s.name,
+	s.name as product_name,
 	s.total_ordered,
 	ROW_NUMBER() OVER (PARTITION BY a.country, a.city ORDER BY s.total_ordered DESC) as rank
 FROM all_sessions a
@@ -112,7 +113,7 @@ WHERE country != 'Unknown' AND city != 'Unknown'
 SELECT
 	country,
 	city,
-	name,
+	product_name,
 	total_ordered
 FROM TopSales
 WHERE rank = 1
