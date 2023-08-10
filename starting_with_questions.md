@@ -17,11 +17,12 @@ GROUP BY country, city
 ORDER BY total_revenue DESC
 ```
 
-Answer: 1) San Francisco, United States
-        2) Sunnyvale, United States
-        3) Atlanta, United States
-        4) Palo Alto, United States
-        5) Tel Aviv-Yafo, Israel
+Answer: 
+1) San Francisco, United States
+2) Sunnyvale, United States
+3) Atlanta, United States
+4) Palo Alto, United States
+5) Tel Aviv-Yafo, Israel
         
 
 
