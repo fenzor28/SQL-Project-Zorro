@@ -70,6 +70,11 @@ UPDATE all_sessions
 SET city = 'Unknown'
 WHERE city = '(not set)' OR city = 'not available in demo dataset'
 ```
+```
+UPDATE all_sessions
+SET country = 'Unknown'
+WHERE country = '(not set)'
+```
 
 Dividing the values in column "productprice" by 1,000,000 would convert the values to a more standard unit like dollars. This would make the data more interpretable and consistent. To maintain consistency in the dataset, I applied the same scaling to other monetary-related columns.
 The same query was used in the analytics table for consistency.
