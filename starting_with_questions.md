@@ -43,10 +43,32 @@ Answer:
 
 
 SQL Queries:
+```
+WITH RankedCategories AS (
+SELECT 
+	country,
+	city,
+	v2productcategory,
+	COUNT(*) AS no_of_orders,
+	RANK() OVER (PARTITION BY country, city ORDER BY COUNT(*) DESC) AS rank
+FROM all_sessions
+WHERE v2productcategory IS NOT NULL AND v2productcategory != 'Unknown'
+	AND city != 'Unknown' AND country != 'Unknown'
+GROUP BY country, city, v2productcategory
+)
+SELECT 
+	country,
+	city,
+	v2productcategory,
+	no_of_orders,
+	rank
+FROM RankedCategories
+WHERE rank <= 3
+```
 
 
-
-Answer:
+Answer: 1) The category " Home/Shop by Brand/YouTube/ " appears to be consistenly popular in various cities like Bribane, Melbourne and 		Sydney 	in Australia
+	2) The category " Home/Shop by Brand/YouTube/ " appears globally popular amongst the maajor countries
 
 
 
