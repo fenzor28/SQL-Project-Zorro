@@ -21,7 +21,7 @@ Answer:
 
 
 
-## Question 2: What are the top 3 infant products with low stock levels that might risk going out of stock soon?​
+## Question 2: What are the top 3 products for infants with low stock levels that might risk going out of stock soon?​
 
 SQL Queries:
 ```
@@ -40,7 +40,6 @@ Answer:
 1) Infant Short Sleeve Tee Red
 2) Infant Short Sleeve Tee White
 3) Infant Short Sleeve Tee Royal Blue
-
 
 
 ## Question 3: Which products are the most commonly bought together?
