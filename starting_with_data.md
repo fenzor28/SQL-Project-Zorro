@@ -1,4 +1,4 @@
-# Questions I made up
+# Questions I Made Up
 
 ## Question 1: Are there products with high stock levels but low sales, indicating overstocking? What strategies can be applied to clear this inventory?
 
