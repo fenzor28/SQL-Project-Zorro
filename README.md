@@ -28,7 +28,7 @@ Provide insights into business operations and trends through the analysis of dat
 
 
 ## Results
- With these dataset, I was able to discover
+ With these datasets, I was able to discover
 
 ### all_sessions
      1) Information about various user sessions, possibly related to an ecommerce platform, including user behavior, transactions, and interactions with different products.
