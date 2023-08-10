@@ -91,7 +91,6 @@ Answer:
 
 
 
-
 **Question 4: What is the top-selling product from each city/country? Can we find any pattern worthy of noting in the products sold?**
 
 
