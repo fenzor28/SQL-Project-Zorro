@@ -5,7 +5,7 @@
 SQL Queries: 
 ```
 SELECT 
-	name as product_name,
+	name AS product_name,
 	stocklevel,
 	orderedquantity
 FROM products
@@ -26,7 +26,7 @@ Answer:
 SQL Queries:
 ```
 SELECT 
-	name as product_name,
+	name AS product_name,
 	stocklevel,
 	orderedquantity
 FROM products
@@ -47,7 +47,7 @@ Answer:
 SQL Queries: 
 ```
 WITH ProductPairs AS (
-	SELECT a.v2productname as product_a,
+	SELECT a.v2productname AS product_a,
 	  	   b.v2productname as product_b
 	FROM all_sessions a
 	JOIN all_sessions b
