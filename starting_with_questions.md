@@ -30,9 +30,18 @@ Answer: 1) San Francisco, United States
 
 
 SQL Queries:
-
-
-
+```
+SELECT 
+	a.country,
+	a.city,
+	ROUND(AVG(p.orderedquantity)) AS avg_products_ordered
+FROM all_sessions a
+JOIN products p 
+	ON a.productsku = p.productsku
+WHERE country != 'Unknown' AND city != 'Unknown' 
+GROUP BY a.country, a.city
+ORDER BY a.country, avg_products_ordered DESC
+```
 Answer: Results for the country Argentina
 
 | country | city | avg_products_ordered |
