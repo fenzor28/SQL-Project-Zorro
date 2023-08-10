@@ -13,10 +13,11 @@ WHERE stocklevel > 100 AND orderedquantity < 60
 ORDER BY stocklevel DESC
 ```
 
-Answer: 1) Men's Watershed Full Zip Hoodie Grey
-	2) Men's Short Sleeve Hero Tee Charcoal
- 	3) Men's Long and Lean Tee Charcoal
-  	4) Tri-blend Hoodie Grey
+Answer: 
+1) Men's Watershed Full Zip Hoodie Grey
+2) Men's Short Sleeve Hero Tee Charcoal
+3) Men's Long and Lean Tee Charcoal
+4) Tri-blend Hoodie Grey
 
 
 
