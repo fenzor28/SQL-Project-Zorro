@@ -180,10 +180,8 @@ WHERE rank = 1
 GROUP BY product_name
 	ORDER BY "Number of Cities/Countries" DESC
 LIMIT 3
-
-
 ```
-P
+
 
 
 
