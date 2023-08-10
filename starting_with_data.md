@@ -1,4 +1,4 @@
-Question 1: Are there products with high stock levels but low sales, indicating overstocking? What strategies can be applied to clear this inventory?
+## Question 1: Are there products with high stock levels but low sales, indicating overstocking? What strategies can be applied to clear this inventory?
 
 SQL Queries: 
 ```
@@ -18,7 +18,7 @@ Answer: 1) Men's Watershed Full Zip Hoodie Grey
 
 
 
-Question 2: 
+## Question 2: 
 What are the top 3 infant products with low stock levels that might risk going out of stock soon?​
 
 SQL Queries:
@@ -40,7 +40,7 @@ Answer: 1) Infant Short Sleeve Tee Red
 
 
 
-Question 3:
+## Question 3:
 Which products are the most commonly bought together?
 
 SQL Queries: 
@@ -66,7 +66,7 @@ Answer: Nest® Protect Smoke + CO Black Battery Alarm-USA and Nest® Learning Th
 	
  	
 
-Question 4: 
+## Question 4: 
 
 Which channel is resposible for attracting the highest number of user sessions on the platform?
 
