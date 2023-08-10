@@ -6,7 +6,8 @@ Create and put into action a quality assurance (QA) procedure to compare and ver
 Provide insights into business operations and trends through the analysis of data.
 
 ## Process
-### (your step 1)
+### Understanding the Data
+    
 ### (your step 2)
 
 ## Results
