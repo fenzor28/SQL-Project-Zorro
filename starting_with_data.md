@@ -21,8 +21,7 @@ Answer:
 
 
 
-## Question 2: 
-What are the top 3 infant products with low stock levels that might risk going out of stock soon?​
+## Question 2: What are the top 3 infant products with low stock levels that might risk going out of stock soon?​
 
 SQL Queries:
 ```
@@ -37,14 +36,14 @@ ORDER BY stocklevel
 LIMIT 3
 ```
 
-Answer: 1) Infant Short Sleeve Tee Red
-	2) Infant Short Sleeve Tee White
- 	3) Infant Short Sleeve Tee Royal Blue
+Answer: 
+1) Infant Short Sleeve Tee Red
+2) Infant Short Sleeve Tee White
+3) Infant Short Sleeve Tee Royal Blue
 
 
 
-## Question 3:
-Which products are the most commonly bought together?
+## Question 3: Which products are the most commonly bought together?
 
 SQL Queries: 
 ```
@@ -65,13 +64,12 @@ GROUP BY product_a, product_b
 ORDER BY pair_count DESC
 LIMIT 10
 ```
-Answer: Nest® Protect Smoke + CO Black Battery Alarm-USA and Nest® Learning Thermostat 3rd Gen-USA - Stainless Steel
+Answer: 
+Nest® Protect Smoke + CO Black Battery Alarm-USA and Nest® Learning Thermostat 3rd Gen-USA - Stainless Steel
 	
  	
 
-## Question 4: 
-
-Which channel is resposible for attracting the highest number of user sessions on the platform?
+## Question 4: Which channel is resposible for attracting the highest number of user sessions on the platform?
 
 SQL Queries: 
 ```
