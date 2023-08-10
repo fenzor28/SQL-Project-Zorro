@@ -13,7 +13,11 @@ Provide insights into business operations and trends through the analysis of dat
 (fill in what you discovered this data could tell you and how you used the data to answer those questions)
 
 ## Challenges 
-(discuss challenges you faced in the project)
+
+When changes were made in the names of the columns, I kept getting this error:
+ERROR:  cached plan must not change result type 
+
+Opening a new query tool solves the issue
 
 ## Future Goals
 (what would you do if you had more time?)
