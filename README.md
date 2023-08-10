@@ -7,7 +7,8 @@ Provide insights into business operations and trends through the analysis of dat
 
 ## Process
 ### Understanding the Data 
-: I began by analyzing the data prior to cleaning. Before diving into cleaning, it's important that I understand the quality of the data,   what it represents, and what the research or business objectives are. By analyzing the data, I was able to identify the issues that need     to  be addressed during the cleaning process.
+     : I began by analyzing the data prior to cleaning. Before diving into cleaning, it's important that I understand the quality of the             data, what it represents, and what the research or business objectives are. By analyzing the data, I was able to identify the issues          that need to be addressed during the cleaning process.
+
     
 ### Import the Data into PostgreSQL
      1) Create a database named "Ecommerce" and table: Created a table in PostgreSQL for each CSV file with matching structure and appropriate data types
