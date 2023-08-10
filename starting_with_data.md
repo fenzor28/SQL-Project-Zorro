@@ -14,10 +14,10 @@ WHERE stocklevel > 100 AND orderedquantity < 60
 ORDER BY stocklevel DESC
 ```
 
-Answer: Men's Watershed Full Zip Hoodie Grey
-	Men's Short Sleeve Hero Tee Charcoal
- 	Men's Long and Lean Tee Charcoal
-  	Tri-blend Hoodie Grey
+Answer: 1) Men's Watershed Full Zip Hoodie Grey
+	2) Men's Short Sleeve Hero Tee Charcoal
+ 	3) Men's Long and Lean Tee Charcoal
+  	4) Tri-blend Hoodie Grey
 
 
 
@@ -39,13 +39,20 @@ ORDER BY stocklevel
 LIMIT 3
 ```
 
-Answer:
+Answer: 1) Infant Short Sleeve Tee Red
+	2) Infant Short Sleeve Tee White
+ 	3) Infant Short Sleeve Tee Royal Blue
 
 
 
-Question 3: 
+Question 3: Which channel is resposible for attracting the highest number of user sessions on the platform?
 
-SQL Queries:
+SQL Queries: 
+```
+SELECT channelgrouping, COUNT(*) AS no_of_sessions
+FROM all_sessions
+GROUP BY channelgrouping
+ORDER BY no_of_sessions DESC
 
 Answer:
 
