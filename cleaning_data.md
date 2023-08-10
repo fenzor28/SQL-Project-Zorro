@@ -165,6 +165,11 @@ UPDATE products
 SET name = TRIM(name)
 ```
 
+To maintain consistency across all the related columns in different tables that share the same name
+```
+ALTER TABLE products
+RENAME COLUMN sku to productsku
+```
 
 
 # SALES_BY_SKU TABLE
