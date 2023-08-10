@@ -36,7 +36,7 @@ SQL Queries:
 Answer:
 
 | country | city | avg_products_ordered |
-| ----------- | ----------- |
+| ----------- | ----------- |------------|
 | Header | Title |
 | Paragraph | Text |
 
