@@ -211,7 +211,7 @@ For consistent formatting, this query will remove any extra spaces at the beginn
 ```
 UPDATE sales_report
 SET name = TRIM(name)
-
+```
 
 
 
