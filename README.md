@@ -11,10 +11,14 @@ Provide insights into business operations and trends through the analysis of dat
        and what the research or business objectives are. By analyzing the data, I was able to identify the issues that need to be addressed during the cleaning process.
     
 ### Import the Data into PostgreSQL
-     1) Create a database named "Ecommerce" and table: Designed a table in PostgreSQL that matches the structure of each CSV file with it's appropriate data types
+     1) Create a database named "Ecommerce" and table: Created a table in PostgreSQL for each CSV file with matching structure and appropriate data types
      2) Import the CSV file into the table: Use pgAdmin4 to import the CSV file into the created table
 
-## Results
+## Data Cleaning and Transformation
+     : The goal of this process is to give us data that is complete, correct and relevant to the problems we're trying to solve, which makes analysis easier.
+     1) Handle Duplicates: Remove or handle any duplicate rows and columns
+     2) Identify missing values: Decide on a strategy to handle missing values, such as deletion or filling with default values.
+     3) Data transformation: Convert data types if needed and normalize values.
 (fill in what you discovered this data could tell you and how you used the data to answer those questions)
 
 ## Challenges 
