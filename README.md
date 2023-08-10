@@ -51,9 +51,12 @@ Provide insights into business operations and trends through the analysis of dat
 4) Some columns, such as "currrencycode," contained constant values across all rows. These constant columns may not contribute meaningful information, and deciding whether to keep or remove them required analysis.
 5) Some columns may require conversion to more appropriate data types or formats. It was challenging without clear documentation or understanding of the data.
 6) Making informed decisions about interpreting columns and cleaning was challenging to make accurately.
-7) When changes were made in the names of the columns, I kept getting this error:
+7) A lot of columns has missing values and is not suitable for analysis.
+8)  When changes were made in the names of the columns, I kept getting this error:
    ERROR:  cached plan must not change result type
    Solved it by simply opening a new query tool
+9) I assumed the time columns were minutes but it could hours
+10) 
 
 
 Opening a new query tool solves the issue
