@@ -1,4 +1,4 @@
-#Answer the following questions and provide the SQL queries used to find the answer.
+# Answer the following questions and provide the SQL queries used to find the answer.
 
     
 ## Question 1: Which cities and countries have the highest level of transaction revenues on the site?
@@ -164,7 +164,8 @@ GROUP BY a.country, a.city, b.country_total_revenue
 ORDER BY city_total_revenue DESC
 ```
 
-Answer: It's evident that the United States, particularly cities like San Francisco, Sunnyvale and Atlanta, have contributed significantly to the revenue
+Answer: 
+It's evident that the United States, particularly cities like San Francisco, Sunnyvale and Atlanta, have contributed significantly to the revenue
 
 
 
