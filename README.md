@@ -29,17 +29,26 @@ Provide insights into business operations and trends through the analysis of dat
 
 ## Results
      : With these dataset, I was able to discover
- ### all_sessions
+
+### all_sessions
      1) Information about various user sessions, possibly related to an ecommerce platform, including user behavior, transactions, and interactions with different products.
      2) Information about the user (such as country and city) and how they reached the platform (through direct channels, referrals, or search) is provided.
 
 ### analytics
      1) Information about website visits, including details about visitors, engagement, units sold, pageviews, time on site, bounces, revenue, and unit price.
 
-     -products
+### products
      1) Information about various products
 
-     -
+### sales_report
+     1) Information about various products and their sales
+
+### sales_sku
+     1) Information about the summarized number of products ordered
+     2) The values on this table matches with the sales_report table except that there are eight products that aren't in the sales_report table. 
+     3) Six out of the eight products have a 'total_ordered' value of 0, indicating that these products have not been sold yet or new additions. This is a potential reason they might not appear in the sales_report table.
+
+
 
 (fill in what you discovered this data could tell you and how you used the data to answer those questions)
 
@@ -57,10 +66,11 @@ Provide insights into business operations and trends through the analysis of dat
    ERROR:  cached plan must not change result type
    Solved it by simply opening a new query tool
 9) I assumed the time columns were minutes but it could be hours
-
+10) 
 
 
 
 
 ## Future Goals
 (what would you do if you had more time?)
+1) 
