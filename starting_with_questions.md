@@ -9,7 +9,7 @@ SQL Queries:
 SELECT 
 	city,
 	country,
-	SUM(totaltransactionrevenue) as total_revenue
+	SUM(totaltransactionrevenue) AS total_revenue
 FROM all_sessions 
 WHERE totaltransactionrevenue IS NOT NULL 
 	AND city != 'Unknown'
@@ -214,9 +214,3 @@ ORDER BY city_total_revenue DESC
 
 Answer: 
 It's evident that the United States, particularly cities like San Francisco, Sunnyvale and Atlanta, have contributed significantly to the revenue
-
-#
-
-
-
-
