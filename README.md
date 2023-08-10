@@ -19,6 +19,15 @@ Provide insights into business operations and trends through the analysis of dat
      1) Handle Duplicates: Remove or handle any duplicate rows and columns
      2) Identify missing values: Decide on a strategy to handle missing values, such as deletion or filling with default values.
      3) Data transformation: Convert data types if needed and normalize values.
+
+## Quality Assurance Process
+     1) Data Quality Checks: Regularly verify the accuracy and consistency of the data. This may include validating that imported data matches the raw data, checking for missing values or inconsistencies, 
+        and ensuring that any transformations have been applied correctly.
+     2) Documentation: Maintain clear and detailed documentation of the data cleaning and analysis steps. This ensures that the process can be easily reviewed, understood, and replicated.
+
+
+
+
 (fill in what you discovered this data could tell you and how you used the data to answer those questions)
 
 ## Challenges 
