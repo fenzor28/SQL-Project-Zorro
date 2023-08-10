@@ -23,7 +23,6 @@ Question 2:
 What are the top 3 infant products with low stock levels that might risk going out of stock soon?​
 
 SQL Queries:
-What are the top 3 infant products with low stock levels that might risk going out of stock soon?​
 ```
 SELECT 
 	name as product_name,
@@ -43,6 +42,33 @@ Answer: 1) Infant Short Sleeve Tee Red
 
 
 Question 3:
+Which products are the most commonly bought together?
+
+SQL Queries: 
+```
+WITH ProductPairs AS (
+	SELECT a.v2productname as product_a,
+	  	   b.v2productname as product_b
+	FROM all_sessions a
+	JOIN all_sessions b
+		ON a.fullvisitorid = b.fullvisitorid
+	AND a.v2productname != b.v2productname
+)
+SELECT 
+	product_a,
+	product_b,
+	COUNT(*) AS pair_count
+FROM ProductPairs
+GROUP BY product_a, product_b
+ORDER BY pair_count DESC
+LIMIT 10
+```
+Answer: Nest® Protect Smoke + CO Black Battery Alarm-USA and Nest® Learning Thermostat 3rd Gen-USA - Stainless Steel
+	
+ 	
+
+Question 4: 
+
 Which channel is resposible for attracting the highest number of user sessions on the platform?
 
 SQL Queries: 
@@ -51,17 +77,9 @@ SELECT channelgrouping, COUNT(*) AS no_of_sessions
 FROM all_sessions
 GROUP BY channelgrouping
 ORDER BY no_of_sessions DESC
-
+```
 Answer:
-
-
-
-Question 4: 
-
-SQL Queries:
-
-Answer:
-
+Organic Search: indicating that users are finding the platform through seach engine results.
 
 
 Question 5: 
