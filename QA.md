@@ -12,6 +12,7 @@
    Some columns have inconsistencies in text data, such as different cases (upper/lower) and extra spaces and alternate words
 
 5) Data redundancy:
+
    Handling redundant rows or columns that contain similar information improperly can result to biases in the analysis
 
    productSKU: All 454 rows have unique SKUs
