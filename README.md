@@ -81,5 +81,8 @@ Provide insights into business operations and trends through the analysis of dat
 
 ## Future Goals
 (what would you do if you had more time?)
-1) Do a more rigourous QA process
-2) 
+1) Do a more rigorous QA process
+2) Use complex data transformation queries for proper text normalization
+3) Spend more time understanding why there is a lot of missing data before deciding on a strategy for dealing with it
+4) Understand the distribution of data to find out potential outliers
+5) 
