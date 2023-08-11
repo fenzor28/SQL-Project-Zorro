@@ -76,7 +76,7 @@
 
 
 ## Future Goals
-(what would you do if you had more time?)
+If I had more time I would:
 1) Do a more rigorous QA process
 2) Use complex data transformation queries for proper text normalization
 3) Spend more time understanding why there is a lot of missing data before deciding on a strategy for dealing with it
