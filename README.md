@@ -59,21 +59,21 @@
 6) Find top-selling products from each city/country and finds pattern in the products sold
 7) Find the average number of products ordered from visitors in each city and country
 
+
 ## Challenges 
 1) Data cleaning and transformation consumed a lot of my time.
-2) I was not able to find a suitable column to serve as the primary key in some of the tables so I deicide to add an Auto-Incremented ID.
-3) Several columns had missing values. Deciding how to handle these missing values required careful consideration and understanding of the domain context.
-4) It was challenging to find a suitable primary and foreign key for some of the tables.
-5) Some columns, such as "currrencycode," contained constant values across all rows. These constant columns may not contribute meaningful information, and deciding whether to keep or remove them required analysis.
-6) Some columns may require conversion to more appropriate data types or formats. It was challenging without clear documentation or understanding of the data.
-7) Making informed decisions about interpreting columns and cleaning was challenging to make accurately.
-8) A lot of columns has missing values and is not suitable for analysis.
-9)  When changes were made in the names of the columns, I kept getting this error:
+2) I was not able to find a suitable column to serve as the primary key in some of the tables so I decided to add an Auto-Incremented ID.
+3) Several columns had missing values. Deciding how to handle these missing values required careful consideration and understanding of the data.
+4) Some columns, such as "currrencycode," contained constant values across all rows. These constant columns may not contribute meaningful information, and deciding whether to keep or remove them required analysis.
+5) Some columns may require conversion to more appropriate data types or formats. It was challenging without clear documentation or understanding of the data.
+6) Making informed decisions about interpreting columns and cleaning was challenging to make accurately.
+7) A lot of columns has missing values and is not suitable for analysis.
+8)  When changes were made in the names of the columns, I kept getting this error:
    ERROR:  cached plan must not change result type
    Solved it by simply opening a new query tool
-10) I assumed the time columns were minutes but it could be hours
-11) I encountered issues when importing the all_sessions csv file
-12) Not enough practice on data cleaning and the quality assurance process
+9) I assumed the time columns were minutes but it could be hours
+10) I encountered issues when importing the all_sessions csv file
+11) Not enough practice on data cleaning and the quality assurance process
 
 
 ## Future Goals
