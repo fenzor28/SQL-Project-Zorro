@@ -21,8 +21,9 @@
 
 ## ALL_SESSIONS TABLE
 
-By performing the same query below for each column I found thatsome columns have duplicates.
-In a dataset that captures visitor sessions, it's common to have multiple rows for the same visitor, representing different sessions or interactions. Therefore, a single column might not be unique across the entire dataset. We could consider a combination of columns to uniquely identify each row.
+In a dataset that captures visitor sessions, it's common to have multiple rows for the same visitor, representing different sessions or interactions. Therefore, a single column might not be unique across the entire dataset. I decided to add an Auto-Incremented ID.
+
+By performing the same query below for each column I found that some columns have duplicates.
 ```
 select fullvisitorid, count(*)
 FROM all_sessions
@@ -30,14 +31,11 @@ GROUP BY fullvisitorid
 HAVING count(*) > 1
 ```
 
-
-
 This query will show the data types of all columns in the table. This is to verify that all columns have been converted to the correct data types
 ```
 SELECT column_name, data_type 
 FROM information_schema.columns 
 WHERE table_name = 'all_sessions'
-
 ```
 
 This query will update only the rows where the value is '(other)' in the column channelgrouping, removing the parentheses from that specific value 
