@@ -1,26 +1,20 @@
 # What are your risk areas? Identify and describe them.
-1) Missing values:
-
+## Missing values:
     It can distort the true representation of data, leading to inaccurate results and conclusions. Not handling this properly can lead to         making wrong business or research decisions.
 
-3) Loss of Information:
+## Loss of Information:
+     Accidental deletion or modification of data during cleaning or transformation can lead to data loss.
 
-    Accidental deletion or modification of data during cleaning or transformation can lead to data loss.
+## Determining the Reason for Missingness:
+     Before deciding how to handle missing data, it's essential to understand why it's missing. Is it missing completely at random? Is it          missing based on some observed data, or is it missing based on some unobserved data? I'm not sure how to properly approach this scenario.
 
-5) Determining the Reason for Missingness:
+## Normalization of Text:
+     Some columns have inconsistencies in text data, such as different cases (upper/lower) and extra spaces and alternate words
 
-   Before deciding how to handle missing data, it's essential to understand why it's missing. Is it missing completely at random? Is it          missing based on some observed data, or is it missing based on some unobserved data? I'm not sure how to properly approach this scenario.
-
-7) Normalization of Text:
-
-    Some columns have inconsistencies in text data, such as different cases (upper/lower) and extra spaces and alternate words
-
-9) Data redundancy:
-
-   Handling redundant rows or columns that contain similar information improperly can result to biases in the analysis
-
-   productSKU: All 454 rows have unique SKUs
-   name: There are 113 product names with duplicates, which suggests that some SKUs might be associated with the same product name.
+## Data redundancy:
+    Handling redundant rows or columns that contain similar information improperly can result to biases in the analysis
+    productSKU: All 454 rows have unique SKUs
+    name: There are 113 product names with duplicates, which suggests that some SKUs might be associated with the same product name.
 
 
 # QA Process:
