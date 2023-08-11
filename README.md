@@ -30,7 +30,7 @@
      1) I executed SQL queries to solve each problem and interpreted the results to provide insights.
 
 ## Results
- With these datasets, I was able to discover
+ With these datasets, I was able to discover:
 
 ### all_sessions
      1) Information about various user sessions, possibly related to an ecommerce platform, including user behavior, transactions, and interactions with different products.
