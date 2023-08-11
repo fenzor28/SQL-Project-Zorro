@@ -115,7 +115,17 @@ HAVING count(*) > 1
 This query was used to identify duplicated records using the GROUP BY clause
 
 ```
-SELECT visitnumber, visitid, visitstarttime, date, fullvisitorid, channelgrouping, pageviews, bounces, unitprice, COUNT(*)
+SELECT
+	visitnumber,
+	visitid,
+	visitstarttime,
+	date,
+	fullvisitorid,
+	channelgrouping,
+	pageviews,
+	bounces,
+	unitprice,
+	COUNT(*)
 FROM analytics
 GROUP BY visitnumber, visitid, visitstarttime, fullvisitorid, date, channelgrouping, pageviews, bounces, unitprice
 HAVING COUNT(*) > 1
