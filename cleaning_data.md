@@ -99,10 +99,6 @@ SET productprice = productprice / 1000000,
 
 ## ANALYTICS TABLE
 
-userid column contains no values
-
-The column 'socialengagementtype' produces redundant data
-
 By performing the same query below for each column I found that every column have duplicates, therefore none of the columns can be the primary key
 ```
 select fullvisitorid, count(*)
