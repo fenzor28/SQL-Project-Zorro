@@ -82,9 +82,9 @@ Dividing the values in column "productprice" by 1,000,000 would convert the valu
 The same query was used in the analytics table for consistency.
 
 Here's a list of columns:
--totaltransactionrevenue
--productrevenue
--transactionrevenue
+1) totaltransactionrevenue
+2) productrevenue
+3) transactionrevenue
 
 The columns 'productrefundamount' and 'itemrevenue' were not included because they contain no values
 ```
