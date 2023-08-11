@@ -21,7 +21,7 @@
 
 ## ALL_SESSIONS TABLE
 
-By performing the same query below for each column I found that every column have duplicates.
+By performing the same query below for each column I found thatsome columns have duplicates.
 In a dataset that captures visitor sessions, it's common to have multiple rows for the same visitor, representing different sessions or interactions. Therefore, a single column might not be unique across the entire dataset. We could consider a combination of columns to uniquely identify each row.
 ```
 select fullvisitorid, count(*)
