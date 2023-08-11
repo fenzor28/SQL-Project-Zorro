@@ -3,7 +3,7 @@
     It can distort the true representation of data, leading to inaccurate results and conclusions. Not handling this properly can lead to making wrong business or research decisions.
 
 ## Loss of Information:
-     Accidental deletion or modification of data during cleaning or transformation can lead to data loss.
+     Accidental deletion or modification of data can result to significant data loss.
 
 ## Determining the Reason for Missingness:
      Before deciding how to handle missing data, it's essential to understand why it's missing. Is it missing completely at random? Is it missing based on some observed data, or is it missing based on some unobserved data? I'm not sure how to properly approach this scenario.
