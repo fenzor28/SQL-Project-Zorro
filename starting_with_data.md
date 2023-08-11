@@ -1,6 +1,6 @@
 # Questions I Made Up
 
-## Question 1: Are there products with high stock levels but low sales, indicating overstocking? What strategies can be applied to clear this inventory?
+## Question 1: Are there products with high stock levels but low sales, indicating overstocking? 
 
 SQL Queries: 
 ```
@@ -48,7 +48,7 @@ SQL Queries:
 ```
 WITH ProductPairs AS (
 	SELECT a.v2productname AS product_a,
-	  	   b.v2productname as product_b
+	  	   b.v2productname AS product_b
 	FROM all_sessions a
 	JOIN all_sessions b
 		ON a.fullvisitorid = b.fullvisitorid
@@ -79,10 +79,3 @@ ORDER BY no_of_sessions DESC
 ```
 Answer:
 Organic Search: indicating that users are finding the platform through seach engine results.
-
-
-Question 5: 
-
-SQL Queries:
-
-Answer:
