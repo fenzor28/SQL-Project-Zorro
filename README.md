@@ -26,6 +26,8 @@
         and ensuring that any transformations have been applied correctly.
      2) Documentation: Maintain clear and detailed documentation of the data cleaning and analysis steps. This ensures that the process can be easily reviewed, understood, and replicated.
 
+### Data Analysis
+     1) I executed SQL queries to solve each problem and interpreted the results to provide insights.
 
 ## Results
  With these datasets, I was able to discover
@@ -48,13 +50,16 @@
      2) The values on this table matches with the sales_report table except that there are eight products that aren't in the sales_report table. 
      3) Six out of the eight products have a 'total_ordered' value of 0, indicating that these products have not been sold yet or new additions. This is a potential reason they might not appear in the sales_report table.
 
-
-
-(fill in what you discovered this data could tell you and how you used the data to answer those questions)
+## With this data I was able to
+1) Find products that are at a risk of going out of stock soon
+2) Find products indicating potential overstocking
+3) Find which products were commonly bought together
+4) Find if there is any pattern in the categories of products ordered from visitors in each city and country
+5) Summarize the impact of revenue generated from each city/country
+6) Find top-selling products from each city/country and finds pattern in the products sold
+7) Find the average number of products ordered from visitors in each city and country
 
 ## Challenges 
-
-
 1) Data cleaning and transformation consumed a lot of my time.
 2) Several columns had missing values. Deciding how to handle these missing values required careful consideration and understanding of the domain context.
 3) It was challenging to find a suitable primary and foreign key for some of the tables.
@@ -67,17 +72,8 @@
    Solved it by simply opening a new query tool
 9) I assumed the time columns were minutes but it could be hours
 10) I encountered issues when importing the all_sessions csv file
-11) 
+11) Not enough practice on data cleaning and the quality assurance process
 
-## With this data I was able to
-1) Find products that are at a risk of going out of stock soon
-2) Find products indicating potential overstocking
-3) Find which products were commonly bought together
-4) Find if there is any pattern in the categories of products ordered from visitors in each city and country
-5) Summarize the impact of revenue generated from each city/country
-6) Find top-selling products from each city/country and finds pattern in the products sold
-7) Find the average number of products ordered from visitors in each city and country
-   
 
 ## Future Goals
 (what would you do if you had more time?)
@@ -85,4 +81,6 @@
 2) Use complex data transformation queries for proper text normalization
 3) Spend more time understanding why there is a lot of missing data before deciding on a strategy for dealing with it
 4) Understand the distribution of data to find out potential outliers
-5) 
+5) Practice data cleaning
+6) Document each single error to save time
+7) Visualize data using charts and graphs to understand distributions, relationships, and patterns.
