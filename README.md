@@ -66,16 +66,20 @@ Provide insights into business operations and trends through the analysis of dat
    ERROR:  cached plan must not change result type
    Solved it by simply opening a new query tool
 9) I assumed the time columns were minutes but it could be hours
-10) 
+10) I encountered issues when importing the all_sessions csv file
+11) 
 
 ## With this data I was able to
 1) Find products that are at a risk of going out of stock soon
 2) Find products indicating potential overstocking
 3) Find which products were commonly bought together
-4) 
-
-
+4) Find if there is any pattern in the categories of products ordered from visitors in each city and country
+5) Summarize the impact of revenue generated from each city/country
+6) Find top-selling products from each city/country and finds pattern in the products sold
+7) Find the average number of products ordered from visitors in each city and country
+   
 
 ## Future Goals
 (what would you do if you had more time?)
 1) Do a more rigourous QA process
+2) 
