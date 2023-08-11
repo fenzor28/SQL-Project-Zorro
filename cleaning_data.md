@@ -25,7 +25,7 @@ In a dataset that captures visitor sessions, it's common to have multiple rows f
 
 By performing the same query below for each column I found that some columns have duplicates.
 ```
-select fullvisitorid, count(*)
+SELECT fullvisitorid, COUNT(*)
 FROM all_sessions
 GROUP BY fullvisitorid
 HAVING count(*) > 1
@@ -99,7 +99,7 @@ SET productprice = productprice / 1000000,
 
 By performing the same query below for each column I found that every column have duplicates, therefore none of the columns can be the primary key
 ```
-select fullvisitorid, count(*)
+SELECT fullvisitorid, COUNT(*)
 FROM all_sessions
 GROUP BY fullvisitorid
 HAVING count(*) > 1
