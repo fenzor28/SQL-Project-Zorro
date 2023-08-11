@@ -14,6 +14,8 @@
 5) Data redundancy:
    Handling redundant rows or columns that contain similar information improperly can result to biases in the analysis
 
+   productSKU: All 454 rows have unique SKUs
+   name: There are 113 product names with duplicates, which suggests that some SKUs might be associated with the same product name.
 
 
 # QA Process:
