@@ -64,5 +64,6 @@ SELECT COUNT(*) AS negative_ordered_quantity_rows
 FROM products
 WHERE orderedquantity < 0
 ```
+### Some of these queries where executed repeatedly across all the tables, where necessary.
 
 
