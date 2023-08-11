@@ -34,7 +34,7 @@ SELECT COUNT(*) AS total_rows
 FROM all_sessions
 ```
 ```
-SELECT COUNT(*) - COUNT(totalTransactionRevenue) as missing_values
+SELECT COUNT(*) - COUNT(totalTransactionRevenue) AS missing_values
 FROM all_sessions
 ```
 ## Data Integrity and Consistency
