@@ -6,7 +6,7 @@
    Accidental deletion or modification of data during cleaning or transformation can lead to data loss.
 
 3) Determining the Reason for Missingness:
-   Before deciding how to handle missing data, it's essential to understand why it's missing. Is it missing completely at random? Is it missing based on some observed data, or is it missing based on some unobserved data? I'm not sure how to properly approach this scenario.
+   Before deciding how to handle missing data, it's essential to understand why it's missing. Is it missing completely at random? Is it          missing based on some observed data, or is it missing based on some unobserved data? I'm not sure how to properly approach this scenario.
 
 4) Normalization of Text:
    Some columns have inconsistencies in text data, such as different cases (upper/lower) and extra spaces and alternate words
