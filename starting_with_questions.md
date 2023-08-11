@@ -139,7 +139,7 @@ WITH TopSales AS (
  SELECT
 	a.country,
 	a.city,
-	s.name as product_name,
+	s.name AS product_name,
 	s.total_ordered,
 	ROW_NUMBER() OVER (PARTITION BY a.country, a.city ORDER BY s.total_ordered DESC) AS rank
 FROM all_sessions a
@@ -192,7 +192,7 @@ SQL Queries:
 WITH CountryRevenue AS (
 	SELECT 
 		country,
-	  	SUM(totaltransactionrevenue) as country_total_revenue
+	  	SUM(totaltransactionrevenue) AS country_total_revenue
 	FROM all_sessions
 	WHERE totaltransactionrevenue IS NOT NULL
 	GROUP BY country
@@ -203,7 +203,7 @@ SELECT
 	a.country,
 	a.city,
 	b.country_total_revenue,
-	SUM(a.totaltransactionrevenue) as city_total_revenue
+	SUM(a.totaltransactionrevenue) AS city_total_revenue
 FROM all_sessions a
 JOIN CountryRevenue b ON a.country = b.country
 WHERE a.totaltransactionrevenue IS NOT NULL 
