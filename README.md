@@ -20,7 +20,7 @@
      1) Handle Duplicates: Remove or handle any duplicate rows and columns
      2) Identify missing values: Decide on a strategy to handle missing values, such as deletion or filling with default values.
      3) Data transformation: Convert data types if needed and normalize values.
-
+     4) Enforce Primary and Foreign keys
 ### Quality Assurance Process
      1) Data Quality Checks: Regularly verify the accuracy and consistency of the data. This may include validating that imported data matches the raw data, checking for missing values or inconsistencies, 
         and ensuring that any transformations have been applied correctly.
