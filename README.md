@@ -68,9 +68,14 @@ Provide insights into business operations and trends through the analysis of dat
 9) I assumed the time columns were minutes but it could be hours
 10) 
 
+## With this data I was able to
+1) Find products that are at a risk of going out of stock soon
+2) Find products indicating potential overstocking
+3) Find which products were commonly bought together
+4) 
 
 
 
 ## Future Goals
 (what would you do if you had more time?)
-1) 
+1) Do a more rigourous QA process
