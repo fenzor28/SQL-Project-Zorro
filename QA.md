@@ -70,6 +70,6 @@ SELECT COUNT(*) AS products_without_sku_count
 FROM all_sessions
 WHERE productQuantity > 0 AND productSKU IS NULL
 ```
-### Some of these queries where executed repeatedly across all the tables, where necessary.
+### Some of these queries were executed repeatedly across all the tables, where necessary.
 
 
