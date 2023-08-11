@@ -1,9 +1,9 @@
 # Final-Project-Transforming-and-Analyzing-Data-with-SQL
 
 ## Project/Goals
-Execute the data cleaning and transforming techniques learned throughout the program.
-Create and put into action a quality assurance (QA) procedure to compare and verify the transformed data with the original raw data.
-Provide insights into business operations and trends through the analysis of data.
+1) Execute the data cleaning and transforming techniques learned throughout the program.
+2) Create and put into action a quality assurance (QA) procedure to compare and verify the transformed data with the original raw data.
+3) Provide insights and trends through the analysis of data.
 
 ## Process
 
@@ -16,7 +16,7 @@ Provide insights into business operations and trends through the analysis of dat
      2) Import the CSV file into the table: Use pgAdmin4 to import the CSV file into the created table
 
 ### Data Cleaning and Transformation
-     : The goal of this process is to give us data that is complete, correct and relevant to the problems we're trying to solve, which makes         analysis easier.
+     : The goal of this process is to give us data that is complete, correct and relevant to the problems we're trying to solve, which makes analysis easier.
      1) Handle Duplicates: Remove or handle any duplicate rows and columns
      2) Identify missing values: Decide on a strategy to handle missing values, such as deletion or filling with default values.
      3) Data transformation: Convert data types if needed and normalize values.
