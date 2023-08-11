@@ -30,7 +30,7 @@ HAVING COUNT(*) > 1
 
 ## Missing values
 ```
-SELECT COUNT(*) as total_rows
+SELECT COUNT(*) AS total_rows
 FROM all_sessions
 ```
 ```
@@ -55,7 +55,7 @@ Check for unexpected values in 'channelGrouping'
 ```
 SELECT channelgrouping, COUNT(*) 
 FROM all_sessions
-WHERE channelGrouping NOT IN ('Organic Search', 'Other', 'Display', 'Referral','Paid Search', 'Affiliates', 'Direct' ) -- list expected values here
+WHERE channelGrouping NOT IN ('Organic Search', 'Other', 'Display', 'Referral','Paid Search', 'Affiliates', 'Direct') 
 GROUP BY channelgrouping
 ```
 Ensure non-negative values for 'orderedquantity' column
