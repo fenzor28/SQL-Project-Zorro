@@ -50,7 +50,7 @@
      2) The values on this table matches with the sales_report table except that there are eight products that aren't in the sales_report table. 
      3) Six out of the eight products have a 'total_ordered' value of 0, indicating that these products have not been sold yet or new additions. This is a potential reason they might not appear in the sales_report table.
 
-## With this data I was able to
+## With this data I was able to:
 1) Find products that are at a risk of going out of stock soon
 2) Find products indicating potential overstocking
 3) Find which products were commonly bought together
