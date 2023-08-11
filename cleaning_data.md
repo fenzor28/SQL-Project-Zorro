@@ -1,18 +1,16 @@
-What issues will you address by cleaning the data?
+# What issues will you address by cleaning the data?
 
-Duplicate Records:
-Removing the same piece of data being entered more than once, which can lead to biased analyses.
+## Duplicate Records:
+   Removing the same piece of data being entered more than once, which can lead to biased analyses.
 
-Inconsistent formatting:
-Ensuring that each column has the appropriate data type, converting them if needed.
+## Inconsistent formatting:
+   Ensuring that each column has the appropriate data type, converting them if needed.
 
-Handle Missing Values: 
-Identifying and handling missing values
+## Handle Missing Values: 
+   Identifying and handling missing values
 
-Text Cleaning:
-Removing unnecessary whitespace, special characters, or punctuation in text data.
-
-By addressing these issues, we can ensure that the data is complete, correct, and relevant to the problem we're trying to solve, leading to more accurate and reliable insights.
+## Text Cleaning:
+   Removing unnecessary whitespace, special characters, or punctuation in text data. By addressing these issues, we can ensure that the data is complete, correct, and relevant to the problem we're trying to solve, leading to more accurate and reliable insights.
 
 
 
